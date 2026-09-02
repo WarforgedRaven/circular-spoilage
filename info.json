@@ -1,0 +1,12 @@
+{
+    "name": "circular-spoilage",
+    "version": "2.1.1",
+    "title": "Complete circular spoilage",
+    "description": "Modifies every item in the game so it spoils into another item, in one big loop. (You can set how many spoilage loops there are in the settings)",
+    "author": "Raven",
+    "factorio_version": "2.1",
+    "dependencies": [
+        "base >= 2.0",
+        "space-age >= 2.0"
+    ]
+}
