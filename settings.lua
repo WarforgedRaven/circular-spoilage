@@ -1,52 +1,52 @@
 data:extend({
-    {
-        type = "int-setting",
-        name = "circular-spoilage-loop-number",
-        setting_type = "startup",
-        order = "A",
-        default_value = 1,
-        minimum_value = 1,
-        maximum_value = 25
-    },
-    {
-        type = "bool-setting",
-        name = "circular-spoilage-even-loops",
-        setting_type = "startup",
-        order = "B",
-        default_value = true
-    },
-    {
-        type = "int-setting",
-        name = "circular-spoilage-irregularity-number",
-        setting_type = "startup",
-        order = "C",
-        default_value = 1,
-        minimum_value = 1,
-        maximum_value = 50
-    },
-    {
-        type = "bool-setting",
-        name = "circular-spoilage-custom-spoil-time",
-        setting_type = "startup",
-        order = "D",
-        default_value = false
-    },
-    {
-        type = "int-setting",
-        name = "circular-spoilage-custom-spoil-min",
-        setting_type = "startup",
-        order = "E",
-        default_value = 1,
-        minimum_value = 1,
-        maximum_value = 7200
-    },
-    {
-        type = "int-setting",
-        name = "circular-spoilage-custom-spoil-max",
-        setting_type = "startup",
-        order = "F",
-        default_value = 7200,
-        minimum_value = 1,
-        maximum_value = 7200
-    }
+	{
+		type = "int-setting",
+		name = "circular-spoilage-loop-number",
+		setting_type = "startup",
+		order = "A",
+		default_value = 1,
+		minimum_value = 1,
+		maximum_value = 25,
+	},
+	{
+		type = "bool-setting",
+		name = "circular-spoilage-even-loops",
+		setting_type = "startup",
+		order = "B",
+		default_value = true,
+	},
+	{
+		type = "int-setting",
+		name = "circular-spoilage-irregularity-number",
+		setting_type = "startup",
+		order = "C",
+		default_value = 1,
+		minimum_value = 1,
+		maximum_value = 50,
+	},
+	{
+		type = "bool-setting",
+		name = "circular-spoilage-custom-spoil-time",
+		setting_type = "startup",
+		order = "D",
+		default_value = false,
+	},
+	{
+		type = "int-setting",
+		name = "circular-spoilage-custom-spoil-min",
+		setting_type = "startup",
+		order = "E",
+		default_value = 1,
+		minimum_value = 1,
+		maximum_value = 7200,
+	},
+	{
+		type = "int-setting",
+		name = "circular-spoilage-custom-spoil-max",
+		setting_type = "startup",
+		order = "F",
+		default_value = 7200,
+		minimum_value = 1,
+		maximum_value = 7200,
+	},
 })
