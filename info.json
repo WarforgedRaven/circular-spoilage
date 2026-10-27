@@ -6,7 +6,7 @@
     "author": "Raven",
     "factorio_version": "2.1",
     "dependencies": [
-        "base >= 2.0",
-        "space-age >= 2.0"
+        "base >= 2.1",
+        "space-age >= 2.1"
     ]
 }
